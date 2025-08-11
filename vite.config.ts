@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // GitHub Pages base path for https://github.com/neno-is-ooo/deep-work-calc
-  base: '/deep-work-calc/',
+  // Using custom domain deepwork-calc.meaning.systems
+  base: '/',
   plugins: [react()],
   test: {
     globals: true,
