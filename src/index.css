@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Minty Fresh Light Mode */
+    --background: hsl(160, 20%, 98%);       /* Mint cream */
+    --foreground: hsl(160, 25%, 10%);       /* Deep mint black */
+    
+    /* Card layers */
+    --card: hsl(160, 15%, 96%);             /* Light mint */
+    --card-foreground: hsl(160, 20%, 12%);  /* Dark mint text */
+    
+    /* Popover/Dropdown */
+    --popover: hsl(160, 18%, 97%);
+    --popover-foreground: hsl(160, 25%, 10%);
+    
+    /* Primary (Fresh Mint) */
+    --primary: hsl(165, 45%, 48%);          /* Fresh mint green */
+    --primary-foreground: hsl(160, 20%, 98%); /* Light on primary */
+    
+    /* Secondary (Soft backgrounds) */
+    --secondary: hsl(160, 12%, 92%);        /* Soft mint gray */
+    --secondary-foreground: hsl(160, 15%, 20%);
+    
+    /* Muted (Subtle elements) */
+    --muted: hsl(160, 10%, 94%);            /* Very light mint */
+    --muted-foreground: hsl(160, 8%, 38%);  /* Muted text */
+    
+    /* Accent (Interactive elements) */
+    --accent: hsl(170, 40%, 92%);           /* Light cyan mint */
+    --accent-foreground: hsl(165, 45%, 35%); /* Dark mint */
+    
+    /* Destructive/Error */
+    --destructive: hsl(350, 60%, 55%);      /* Soft red */
+    --destructive-foreground: hsl(0, 0%, 98%);
+    
+    /* Borders and inputs */
+    --border: hsl(160, 10%, 88%);           /* Mint gray border */
+    --input: hsl(160, 10%, 88%);            /* Input border */
+    --ring: hsl(165, 45%, 48%);             /* Focus ring */
+    
+    /* Status colors */
+    --success: hsl(165, 45%, 48%);          /* Mint success */
+    --warning: hsl(45, 65%, 52%);           /* Warm yellow */
+    --error: hsl(350, 60%, 55%);            /* Soft red */
+    
+    /* Chart colors */
+    --chart-1: hsl(165, 45%, 48%);          /* Mint */
+    --chart-2: hsl(190, 40%, 50%);          /* Teal */
+    --chart-3: hsl(45, 65%, 52%);           /* Yellow */
+    --chart-4: hsl(210, 45%, 55%);          /* Sky blue */
+    --chart-5: hsl(280, 35%, 58%);          /* Lavender */
+    
+    --radius: 0.5rem;
+    
+    /* Shadows with warm tint */
+    --shadow-sm: 0 1px 2px hsla(30, 20%, 20%, 0.05);
+    --shadow: 0 2px 4px hsla(30, 20%, 20%, 0.08);
+    --shadow-md: 0 4px 8px hsla(30, 20%, 20%, 0.10);
+    --shadow-lg: 0 8px 16px hsla(30, 20%, 20%, 0.12);
+    --shadow-xl: 0 16px 32px hsla(30, 20%, 20%, 0.14);
+    
+    /* Special effects */
+    --glow: 0 0 20px hsla(20, 60%, 52%, 0.15);
+    --text-shadow: 0 1px 2px hsla(30, 20%, 20%, 0.1);
+  }
+
+  .dark {
+    /* Minty Fresh Dark Mode */
+    --background: hsl(160, 15%, 8%);        /* Deep mint black */
+    --foreground: hsl(160, 10%, 94%);       /* Mint white */
+    
+    /* Card layers - slightly elevated */
+    --card: hsl(160, 12%, 11%);             /* Dark mint gray */
+    --card-foreground: hsl(160, 10%, 92%);  /* Light mint text */
+    
+    /* Popover/Dropdown */
+    --popover: hsl(160, 12%, 12%);
+    --popover-foreground: hsl(160, 10%, 94%);
+    
+    /* Primary (Mint - vibrant in dark) */
+    --primary: hsl(165, 50%, 45%);          /* Vibrant mint */
+    --primary-foreground: hsl(160, 20%, 98%);
+    
+    /* Secondary (Muted backgrounds) */
+    --secondary: hsl(160, 10%, 16%);        /* Dark mint gray */
+    --secondary-foreground: hsl(160, 10%, 85%);
+    
+    /* Muted (Subtle elements) */
+    --muted: hsl(160, 8%, 18%);             /* Very dark mint */
+    --muted-foreground: hsl(160, 8%, 60%);  /* Muted mint text */
+    
+    /* Accent (Interactive elements) */
+    --accent: hsl(170, 30%, 20%);           /* Dark cyan mint */
+    --accent-foreground: hsl(165, 45%, 70%); /* Light mint */
+    
+    /* Destructive/Error */
+    --destructive: hsl(350, 55%, 50%);      /* Soft red */
+    --destructive-foreground: hsl(0, 0%, 98%);
+    
+    /* Borders and inputs */
+    --border: hsl(160, 8%, 20%);            /* Dark mint border */
+    --input: hsl(160, 8%, 20%);
+    --ring: hsl(165, 50%, 45%);
+    
+    /* Status colors - adjusted for dark */
+    --success: hsl(165, 50%, 45%);          /* Mint success */
+    --warning: hsl(45, 60%, 55%);           /* Yellow */
+    --error: hsl(350, 55%, 50%);            /* Soft red */
+    
+    /* Chart colors - adjusted for dark bg */
+    --chart-1: hsl(165, 50%, 50%);          /* Bright mint */
+    --chart-2: hsl(190, 45%, 48%);          /* Bright teal */
+    --chart-3: hsl(45, 60%, 55%);           /* Bright yellow */
+    --chart-4: hsl(210, 50%, 52%);          /* Bright sky */
+    --chart-5: hsl(280, 40%, 55%);          /* Bright lavender */
+    
+    /* Shadows - more subtle in dark mode */
+    --shadow-sm: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    --shadow: 0 2px 4px hsla(0, 0%, 0%, 0.3);
+    --shadow-md: 0 4px 8px hsla(0, 0%, 0%, 0.4);
+    --shadow-lg: 0 8px 16px hsla(0, 0%, 0%, 0.5);
+    --shadow-xl: 0 16px 32px hsla(0, 0%, 0%, 0.6);
+    
+    /* Special effects */
+    --glow: 0 0 20px hsla(20, 50%, 45%, 0.2);
+    --text-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.5);
+  }
+}
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+  
+  /* Smooth transitions for theme changes */
+  * {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Custom shadow utilities */
+  .shadow-warm {
+    box-shadow: 3px 3px 2px 0px rgba(133, 118, 106, 0.07);
+  }
+  
+  .shadow-warm-md {
+    box-shadow: 3px 3px 2px 0px rgba(133, 118, 106, 0.15), 
+                3px 2px 4px -1px rgba(133, 118, 106, 0.15);
+  }
+  
+  .dark .shadow-warm {
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark .shadow-warm-md {
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.3), 
+                3px 2px 4px -1px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Pulse animation for interactive elements */
+  @keyframes subtle-pulse {
+    0%, 100% {
+      border-color: hsl(var(--primary) / 0.3);
+    }
+    50% {
+      border-color: hsl(var(--primary) / 0.6);
+    }
+  }
+  
+  .interactive-hint {
+    animation: subtle-pulse 2s ease-in-out infinite;
+  }
+}

@@ -1,0 +1,36 @@
+Chapter,Section,Subsection,Complexity,Editor Hours,Researcher Hours,Review Hours
+# Instructions: Fill in your content structure below. Delete instruction rows when done.,,,,,,
+# Complexity: 1=Simple (definitions) 2=Moderate (standard) 3=Complex (technical),,,,,,
+# Leave Section blank if subsections belong directly to the chapter,,,,,,
+# Example rows below - replace with your actual content:,,,,,,
+Chapter 1: Introduction,,Overview of the Topic,1,2,3,1
+Chapter 1: Introduction,,Key Concepts,2,4,6,2
+Chapter 1: Introduction,Historical Context,Early Development,2,3,5,1
+Chapter 1: Introduction,Historical Context,Modern Evolution,3,5,8,2
+Chapter 2: Core Concepts,,Fundamental Principles,2,4,6,2
+Chapter 2: Core Concepts,Technical Details,Implementation,3,6,10,3
+Chapter 2: Core Concepts,Technical Details,Best Practices,2,4,6,2
+Chapter 3: Methodology,,Research Approach,2,4,6,2
+Chapter 3: Methodology,Data Collection,Survey Design,2,3,5,1
+Chapter 3: Methodology,Data Collection,Interview Process,3,5,8,2
+Chapter 3: Methodology,Analysis Framework,Quantitative Methods,3,6,10,3
+Chapter 3: Methodology,Analysis Framework,Qualitative Methods,3,6,10,3
+Chapter 4: Case Studies,,Case Study 1: Industry Example,2,4,6,2
+Chapter 4: Case Studies,,Case Study 2: Academic Application,2,4,6,2
+Chapter 4: Case Studies,Comparative Analysis,Cross-Case Patterns,3,5,8,2
+Chapter 4: Case Studies,Comparative Analysis,Lessons Learned,2,3,5,1
+Chapter 5: Results,,Key Findings,2,4,6,2
+Chapter 5: Results,Statistical Analysis,Descriptive Statistics,2,3,5,1
+Chapter 5: Results,Statistical Analysis,Inferential Statistics,3,6,10,3
+Chapter 5: Results,Qualitative Findings,Thematic Analysis,3,5,8,2
+Chapter 5: Results,Qualitative Findings,Participant Quotes,1,2,3,1
+Chapter 6: Discussion,,Interpretation of Results,3,5,8,2
+Chapter 6: Discussion,,Theoretical Implications,3,6,10,3
+Chapter 6: Discussion,Limitations,Study Constraints,2,3,5,1
+Chapter 6: Discussion,Limitations,Future Research,2,3,5,1
+Chapter 7: Conclusion,,Summary of Findings,2,3,5,1
+Chapter 7: Conclusion,,Practical Applications,2,4,6,2
+Chapter 7: Conclusion,,Final Thoughts,1,2,3,1
+Appendices,,Appendix A: Glossary,1,2,3,1
+Appendices,,Appendix B: Data Tables,1,2,3,1
+Appendices,,Appendix C: Survey Instruments,1,2,3,1
